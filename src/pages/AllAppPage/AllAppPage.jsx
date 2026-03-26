@@ -1,10 +1,11 @@
 import React, { useState, useMemo, useEffect } from "react";
 import SingleApp from "../SingleApp/SingleApp";
 import { CiSearch } from "react-icons/ci";
+import errorImg from "../../assets/App-Error.png";
 
 const AllAppPage = () => {
   const [allAppPageData, setAllAppPageData] = useState([]);
-  const [loading, setLoading] = useState(true);        // Page Loading
+  const [loading, setLoading] = useState(true); // Page Loading
   const [searchTerm, setSearchTerm] = useState("");
   const [isSearching, setIsSearching] = useState(false);
 
@@ -14,7 +15,7 @@ const AllAppPage = () => {
       .then((res) => res.json())
       .then((data) => {
         setAllAppPageData(data);
-        setLoading(false);           // Data load 
+        setLoading(false); // Data load
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -28,7 +29,7 @@ const AllAppPage = () => {
       return allAppPageData || [];
     }
     return (allAppPageData || []).filter((app) =>
-      app.title?.toLowerCase().includes(searchTerm.toLowerCase())
+      app.title?.toLowerCase().includes(searchTerm.toLowerCase()),
     );
   }, [allAppPageData, searchTerm]);
 
@@ -51,7 +52,9 @@ const AllAppPage = () => {
           <p className="mt-6 text-xl text-gray-600 font-medium">
             Loading applications...
           </p>
-          <p className="text-sm text-gray-500 mt-2">Please wait while we fetch the apps</p>
+          <p className="text-sm text-gray-500 mt-2">
+            Please wait while we fetch the apps
+          </p>
         </div>
       </div>
     );
@@ -102,7 +105,7 @@ const AllAppPage = () => {
         )}
 
         {/* Apps Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {filteredApps.map((app) => (
             <SingleApp key={app.id} singleApp={app} />
           ))}
@@ -112,17 +115,14 @@ const AllAppPage = () => {
         {filteredApps.length === 0 && searchTerm && !isSearching && (
           <div className="text-center py-20">
             <div className="flex justify-center mb-8">
-              <img
-                src="https://i.ibb.co.com/0jZfK8Y/not-found-cat.png"
-                alt="No result"
-                className="w-64 h-64"
-              />
+              <img src={errorImg} alt="No result" className="w-64 h-64" />
             </div>
             <h2 className="text-3xl font-bold text-gray-800 mb-3">
-              OPPS!! No Apps Found
+              OPPS!! APP NOT FOUND
             </h2>
             <p className="text-gray-600 text-lg mb-8">
-              No apps matching "<span className="font-semibold">{searchTerm}</span>"
+              The App you are requesting is not found on our system. please try
+              another apps
             </p>
 
             <button
