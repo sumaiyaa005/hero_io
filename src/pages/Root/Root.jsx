@@ -5,9 +5,9 @@ import { Outlet } from "react-router";
 
 const Root = () => {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="">
       <Header></Header>
-      <Outlet></Outlet>
+      <Outlet className="px-20"></Outlet>
       <Footer></Footer>
     </div>
   );

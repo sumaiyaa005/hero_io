@@ -1,0 +1,15 @@
+a {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 15px;
+
+
+}
+
+a.active {
+    background: linear-gradient(to right, #632EE3, #9F62F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #632EE3, #9F62F3) 1;
+}
