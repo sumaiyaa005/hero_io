@@ -1,17 +1,94 @@
-# React + Vite
+# 🚀 HERO.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+**HERO.IO** is a modern web application that allows users to explore, install, manage, and uninstall trending apps in a clean and user-friendly interface. Users can view app details, sort installed apps based on downloads, and manage their installed list efficiently using local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application focuses on delivering a smooth user experience with dynamic data handling, responsive UI, and real-time updates without page reload.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📱 Browse all available apps
+- ✅ Install apps and store them locally
+- ❌ Uninstall apps instantly
+- 📊 Sort installed apps by downloads (High → Low / Low → High)
+- ⚡ Fast and dynamic UI with React
+- 🔔 Toast notifications for user actions
+- 📦 Local storage-based state persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# hero_io
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- ⚛️ React.js
+- 🧭 React Router
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+
+### Libraries & Tools
+
+- 🔔 React Toastify
+- 💾 LocalStorage API
+
+---
+
+## 📂 Project Structure (Basic)
+
+```
+src/
+ ┣ components/
+ ┣ pages/
+ ┣ utility/
+ ┣ assets/
+ ┗ routes/
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sumaiyaa005/hero_io
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the Project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Preview
+
+👉 Coming Soon...
+
+---
+
+## 👩‍💻 Author
+
+**Sumaiya Aktar**
+
+---
+
+## ⭐ Contribution
+
+Feel free to fork this project and contribute. Any improvements are welcome!
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
