@@ -1,15 +1,8 @@
 import React from "react";
 
 const SingleApp = ({ singleApp }) => {
-  const {
-    image,
-    title,
-    description,   // আমরা এখানে title এর নিচে ব্যবহার করব
-    ratingAvg,
-    downloads,
-  } = singleApp || {};
+  const { image, title, ratingAvg, downloads } = singleApp || {};
 
-  // Downloads ফরম্যাট (9M, 24.5M ইত্যাদি)
   const formatDownloads = (num) => {
     if (num >= 1000000) {
       return (num / 1000000).toFixed(0) + "M";
@@ -21,15 +14,10 @@ const SingleApp = ({ singleApp }) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 group">
-      
+    <div className="bg-white  shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 group p-4">
       {/* Image Area */}
-      <div className="h-48 bg-gray-100 flex items-center justify-center p-8 border-b">
-        <img
-          src={image}
-          alt={title}
-          className="w-28 h-28 object-contain group-hover:scale-110 transition-transform duration-300"
-        />
+      <div className=" h-65 bg-gray-200 rounded flex items-center justify-center ">
+        <img src={image} alt={title} className="h-full w-full p-2" />
       </div>
 
       {/* Content Area */}

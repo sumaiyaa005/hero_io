@@ -12,7 +12,7 @@ const Header = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/app">App</NavLink>
+        <NavLink to="/allAppPage">App</NavLink>
       </li>
       <li>
         <NavLink to="/installation">Installation</NavLink>
@@ -24,7 +24,6 @@ const Header = () => {
     <div className="bg-base-100 shadow-sm">
       {/* container */}
       <div className="navbar max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
-        
         {/* LEFT */}
         <div className="navbar-start">
           {/* Mobile menu - এখানে dropdown wrapper এ lg:hidden দিতে হবে */}
@@ -59,11 +58,7 @@ const Header = () => {
             to="/"
             className="flex items-center gap-2 text-xl font-semibold"
           >
-            <img 
-              src={logo} 
-              className="w-9 h-9 sm:w-10 sm:h-10" 
-              alt="Logo" 
-            />
+            <img src={logo} className="w-9 h-9 sm:w-10 sm:h-10" alt="Logo" />
             <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F3] bg-clip-text text-transparent">
               HERO.IO
             </span>
@@ -82,7 +77,7 @@ const Header = () => {
             target="_blank"
             className="btn !px-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none"
           >
-            <FaGithub /> 
+            <FaGithub />
             <span className="hidden sm:inline ml-2">Contribute</span>
           </a>
         </div>

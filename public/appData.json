@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Notion",
+    "image": "https://i.ibb.co.com/nMQPpJT2/noto.png",
     "title": "Notion",
     "companyName": "Notion Labs",
     "description": "All-in-one workspace for notes, tasks, databases, and team collaboration.",
     "size": 185.4,
     "reviews": 124560,
     "ratingAvg": 4.7,
-    "downloads": 24500000,
+    "downloads": 45200000,
     "ratings": [
       { "name": "1 star", "count": 2450 },
       { "name": "2 star", "count": 3780 },
@@ -19,14 +19,14 @@
   },
   {
     "id": 2,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Todoist",
+    "image": "https://i.ibb.co.com/N67wJSzZ/todo.jpg",
     "title": "Todoist",
     "companyName": "Doist",
     "description": "Simple and powerful to-do list and task manager with natural language input.",
     "size": 42.8,
     "reviews": 89340,
     "ratingAvg": 4.8,
-    "downloads": 18500000,
+    "downloads": 28700000,
     "ratings": [
       { "name": "1 star", "count": 890 },
       { "name": "2 star", "count": 1240 },
@@ -37,14 +37,14 @@
   },
   {
     "id": 3,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=ChatGPT",
+    "image": "https://i.ibb.co.com/21RLjG5p/chat.png",
     "title": "ChatGPT",
     "companyName": "OpenAI",
     "description": "AI-powered assistant for writing, coding, learning, and everyday tasks.",
     "size": 128.5,
     "reviews": 215000,
     "ratingAvg": 4.6,
-    "downloads": 84500000,
+    "downloads": 78500000,
     "ratings": [
       { "name": "1 star", "count": 8450 },
       { "name": "2 star", "count": 12400 },
@@ -55,14 +55,14 @@
   },
   {
     "id": 4,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=TickTick",
+    "image": "https://i.ibb.co.com/2DZzPxn/tick.webp",
     "title": "TickTick",
     "companyName": "TickTick",
     "description": "Elegant todo list with calendar, pomodoro timer and habit tracker.",
     "size": 68.2,
     "reviews": 67450,
     "ratingAvg": 4.7,
-    "downloads": 9800000,
+    "downloads": 19300000,
     "ratings": [
       { "name": "1 star", "count": 980 },
       { "name": "2 star", "count": 1670 },
@@ -73,14 +73,14 @@
   },
   {
     "id": 5,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Focus@Will",
+    "image": "https://i.ibb.co.com/FkNsq3dm/focus.webp",
     "title": "Focus@Will",
     "companyName": "Focus@Will",
     "description": "Scientifically designed music to boost concentration and productivity.",
     "size": 95.7,
     "reviews": 32450,
     "ratingAvg": 4.5,
-    "downloads": 6750000,
+    "downloads": 12400000,
     "ratings": [
       { "name": "1 star", "count": 980 },
       { "name": "2 star", "count": 1890 },
@@ -91,14 +91,14 @@
   },
   {
     "id": 6,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Forest",
+    "image": "https://i.ibb.co.com/60fTpcd8/forest.png",
     "title": "Forest",
     "companyName": "Seekrtech",
     "description": "Stay focused by growing virtual trees and fighting phone addiction.",
     "size": 56.3,
     "reviews": 98760,
     "ratingAvg": 4.8,
-    "downloads": 15200000,
+    "downloads": 34100000,
     "ratings": [
       { "name": "1 star", "count": 890 },
       { "name": "2 star", "count": 1240 },
@@ -109,14 +109,14 @@
   },
   {
     "id": 7,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Google+Keep",
+    "image": "https://i.ibb.co.com/Gf6Zm9Zn/googleke.webp",
     "title": "Google Keep",
     "companyName": "Google LLC",
     "description": "Quick notes, lists, and reminders with seamless Google integration.",
     "size": 28.9,
     "reviews": 145670,
     "ratingAvg": 4.4,
-    "downloads": 28500000,
+    "downloads": 67200000,
     "ratings": [
       { "name": "1 star", "count": 4560 },
       { "name": "2 star", "count": 7890 },
@@ -127,14 +127,14 @@
   },
   {
     "id": 8,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Evernote",
+    "image": "https://i.ibb.co.com/5h1rV16k/env.jpg",
     "title": "Evernote",
     "companyName": "Evernote Corporation",
     "description": "Powerful note-taking app with organization, search, and scanning features.",
     "size": 112.6,
     "reviews": 67890,
     "ratingAvg": 4.3,
-    "downloads": 12400000,
+    "downloads": 15800000,
     "ratings": [
       { "name": "1 star", "count": 3450 },
       { "name": "2 star", "count": 5670 },
@@ -143,34 +143,17 @@
       { "name": "5 star", "count": 26560 }
     ]
   },
+
   {
     "id": 9,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=HERO+Flow",
-    "title": "HERO Flow",
-    "companyName": "HERO.IO",
-    "description": "Smart daily planner that combines tasks, habits, and focus sessions.",
-    "size": 67.4,
-    "reviews": 12450,
-    "ratingAvg": 4.9,
-    "downloads": 2450000,
-    "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 230 },
-      { "name": "3 star", "count": 890 },
-      { "name": "4 star", "count": 4320 },
-      { "name": "5 star", "count": 6890 }
-    ]
-  },
-  {
-    "id": 10,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Slack",
+    "image": "https://i.ibb.co.com/mCH454Rf/slack.png",
     "title": "Slack",
     "companyName": "Slack Technologies",
     "description": "Team communication and collaboration hub with channels and integrations.",
     "size": 134.2,
     "reviews": 98760,
     "ratingAvg": 4.5,
-    "downloads": 32100000,
+    "downloads": 52300000,
     "ratings": [
       { "name": "1 star", "count": 2340 },
       { "name": "2 star", "count": 4560 },
@@ -179,52 +162,17 @@
       { "name": "5 star", "count": 41630 }
     ]
   },
+
   {
-    "id": 11,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Asana",
-    "title": "Asana",
-    "companyName": "Asana, Inc.",
-    "description": "Project management tool to organize work, track progress and meet deadlines.",
-    "size": 89.5,
-    "reviews": 45670,
-    "ratingAvg": 4.6,
-    "downloads": 9800000,
-    "ratings": [
-      { "name": "1 star", "count": 980 },
-      { "name": "2 star", "count": 1890 },
-      { "name": "3 star", "count": 5670 },
-      { "name": "4 star", "count": 16780 },
-      { "name": "5 star", "count": 20350 }
-    ]
-  },
-  {
-    "id": 12,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Microsoft+To+Do",
-    "title": "Microsoft To Do",
-    "companyName": "Microsoft Corporation",
-    "description": "Simple yet powerful daily planner integrated with Microsoft 365.",
-    "size": 45.8,
-    "reviews": 67890,
-    "ratingAvg": 4.7,
-    "downloads": 18700000,
-    "ratings": [
-      { "name": "1 star", "count": 890 },
-      { "name": "2 star", "count": 1450 },
-      { "name": "3 star", "count": 4560 },
-      { "name": "4 star", "count": 23450 },
-      { "name": "5 star", "count": 37540 }
-    ]
-  },
-  {
-    "id": 13,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Calm",
+    "id": 10,
+    "image": "https://i.ibb.co.com/CKDgRPpj/clam.jpg",
     "title": "Calm",
     "companyName": "Calm.com",
     "description": "Meditation, sleep stories, and relaxation for better mental health.",
     "size": 156.3,
     "reviews": 134560,
     "ratingAvg": 4.8,
-    "downloads": 28900000,
+    "downloads": 45100000,
     "ratings": [
       { "name": "1 star", "count": 1340 },
       { "name": "2 star", "count": 2890 },
@@ -234,15 +182,15 @@
     ]
   },
   {
-    "id": 14,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=RescueTime",
+    "id": 11,
+    "image": "https://i.ibb.co.com/N6GdY6wV/time.jpg",
     "title": "RescueTime",
     "companyName": "RescueTime",
     "description": "Automatic time tracker that helps you understand and improve productivity.",
     "size": 38.9,
     "reviews": 28900,
     "ratingAvg": 4.4,
-    "downloads": 5420000,
+    "downloads": 9800000,
     "ratings": [
       { "name": "1 star", "count": 890 },
       { "name": "2 star", "count": 1670 },
@@ -252,39 +200,21 @@
     ]
   },
   {
-    "id": 15,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=Grammarly",
+    "id": 12,
+    "image": "https://i.ibb.co.com/B2xtvh6h/gr.png",
     "title": "Grammarly",
     "companyName": "Grammarly, Inc.",
     "description": "AI writing assistant that checks grammar, tone, and clarity.",
     "size": 78.2,
     "reviews": 167890,
     "ratingAvg": 4.6,
-    "downloads": 41200000,
+    "downloads": 61200000,
     "ratings": [
       { "name": "1 star", "count": 2450 },
       { "name": "2 star", "count": 4560 },
       { "name": "3 star", "count": 15670 },
       { "name": "4 star", "count": 56780 },
       { "name": "5 star", "count": 88430 }
-    ]
-  },
-  {
-    "id": 16,
-    "image": "https://via.placeholder.com/300x300/632EE3/FFFFFF?text=HERO+Tasks",
-    "title": "HERO Tasks",
-    "companyName": "HERO.IO",
-    "description": "Beautiful and intelligent task manager designed for focus and simplicity.",
-    "size": 54.7,
-    "reviews": 8750,
-    "ratingAvg": 4.9,
-    "downloads": 1890000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 140 },
-      { "name": "3 star", "count": 520 },
-      { "name": "4 star", "count": 2890 },
-      { "name": "5 star", "count": 5120 }
     ]
   }
 ]
