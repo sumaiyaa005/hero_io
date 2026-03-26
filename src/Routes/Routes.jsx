@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import AllAppPage from "../pages/AllAppPage/AllAppPage";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import AllAppInstalled from "../pages/AllAppInstalled/AllAppInstalled";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,22 @@ export const router = createBrowserRouter([
         path: "/appDetails/:id",
         loader: () => fetch("./appData.json"),
         Component: AppDetails,
+      },
+
+      // {
+      //   path: "/installApp",
+      //   loader: () => fetch("appData.json"),
+      //   Component: AllAppInstalled,
+      // },
+
+      {
+        path: "installApp",
+        loader: async () => {
+          const res = await fetch("/appData.json");
+          return res.json();
+        },
+        element: <AllAppInstalled />,
+        errorElement: <p>Something went wrong</p>,
       },
     ],
   },

@@ -1,14 +1,9 @@
 import React from "react";
 import { Link } from "react-router";
+import { formatDownloadsNumber } from "../../utility/addToDB";
 
 const SingleApp = ({ singleApp }) => {
   const { id, image, title, ratingAvg, downloads } = singleApp || {};
-
-  const formatDownloads = (num) => {
-    if (num >= 1000000) return (num / 1000000).toFixed(0) + "M";
-    if (num >= 1000) return (num / 1000).toFixed(0) + "K";
-    return num;
-  };
 
   return (
     <div className="">
@@ -29,7 +24,7 @@ const SingleApp = ({ singleApp }) => {
             <div className="flex items-center justify-between mt-4">
               <div className="flex items-center gap-1.5 bg-gray-100 text-green-700 text-xs font-medium px-3 py-2">
                 <span>↓</span>
-                {formatDownloads(downloads)}
+                {formatDownloadsNumber(downloads)}
               </div>
 
               <div className="flex items-center gap-1 bg-amber-50 text-amber-600 text-xs font-medium px-3 py-2 ">

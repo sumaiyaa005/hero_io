@@ -15,7 +15,7 @@ const Header = () => {
         <NavLink to="/allAppPage">App</NavLink>
       </li>
       <li>
-        <NavLink to="/installation">Installation</NavLink>
+        <NavLink to="/installApp">Installation</NavLink>
       </li>
     </>
   );
