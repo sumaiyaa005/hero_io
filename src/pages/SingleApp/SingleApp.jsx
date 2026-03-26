@@ -16,8 +16,8 @@ const SingleApp = ({ singleApp }) => {
   return (
     <div className="bg-white  shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 group p-4">
       {/* Image Area */}
-      <div className=" h-65 bg-gray-200 rounded flex items-center justify-center ">
-        <img src={image} alt={title} className="h-full w-full p-2" />
+      <div className=" h-65  rounded flex items-center justify-center ">
+        <img src={image} alt={title} className="h-full w-full " />
       </div>
 
       {/* Content Area */}

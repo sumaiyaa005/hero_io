@@ -25,7 +25,7 @@ const AllApp = ({ allAppData }) => {
         <div className="flex justify-center mt-12">
           <Link
             to="/allAppPage"
-            className="btn px-20 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-3 rounded-xl font-medium hover:brightness-110 transition-all duration-200"
+              className="!px-10 py-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-medium rounded "
           >
             Show All Apps
           </Link>
