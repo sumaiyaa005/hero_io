@@ -26,7 +26,6 @@ const Header = () => {
       <div className="navbar max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
         {/* LEFT */}
         <div className="navbar-start">
-          {/* Mobile menu - এখানে dropdown wrapper এ lg:hidden দিতে হবে */}
           <div className="dropdown lg:hidden">
             <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
