@@ -23,12 +23,13 @@ const Header = () => {
   return (
     <div className="bg-base-100 shadow-sm">
       {/* container */}
-      <div className="navbar max-w-6xl mx-auto px-4">
+      <div className="navbar max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
+        
         {/* LEFT */}
         <div className="navbar-start">
-          {/* Mobile menu */}
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          {/* Mobile menu - এখানে dropdown wrapper এ lg:hidden দিতে হবে */}
+          <div className="dropdown lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -47,7 +48,7 @@ const Header = () => {
 
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-10 w-52 p-2 shadow bg-base-100 rounded-box"
+              className="menu menu-sm dropdown-content mt-3 z-[50] w-52 p-2 shadow bg-base-100 rounded-box"
             >
               {links}
             </ul>
@@ -58,7 +59,11 @@ const Header = () => {
             to="/"
             className="flex items-center gap-2 text-xl font-semibold"
           >
-            <img src={logo} className="w-10 h-10" alt="Logo" />
+            <img 
+              src={logo} 
+              className="w-9 h-9 sm:w-10 sm:h-10" 
+              alt="Logo" 
+            />
             <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F3] bg-clip-text text-transparent">
               HERO.IO
             </span>
@@ -72,14 +77,14 @@ const Header = () => {
 
         {/* RIGHT */}
         <div className="navbar-end">
-          {/* button */}
-          <Link
-            to="https://github.com/sumaiyaa005"
-            target="blank"
-            className="btn !px-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none"
+          <a
+            href="https://github.com/sumaiyaa005"
+            target="_blank"
+            className="btn !px-4 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white border-none"
           >
-            <FaGithub /> Contribute
-          </Link>{" "}
+            <FaGithub /> 
+            <span className="hidden sm:inline ml-2">Contribute</span>
+          </a>
         </div>
       </div>
     </div>
